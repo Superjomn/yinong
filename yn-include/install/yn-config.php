@@ -1,0 +1,1 @@
+<?php define('DBNAME','yinong');define('DBUSERNAME','root');define('DBPWD','root');define('DBMAIN','localhost');?>

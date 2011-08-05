@@ -1,0 +1,24 @@
+@charset "utf-8";
+@import 'panel.css';
+#reply img,#admin_reply img{
+	width:50px;
+	height:50px;
+	border:2px solid #ccc;
+}
+td{
+	padding:5px;
+	border-bottom:1px solid #ccc;
+}
+.label{
+	font-weight:bold;
+}
+h4{
+	color:#999;
+}
+a{
+}
+.reply_num{
+	color:red;
+}
+
+

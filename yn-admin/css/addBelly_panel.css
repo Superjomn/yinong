@@ -1,0 +1,46 @@
+@charset "utf-8";
+@import 'panel.css';
+input{
+	padding:3px;
+}
+#slider-range-max{
+	width:70%;
+}
+#slider-range-max input#amount{
+	width:2em;
+}
+
+input,textarea{
+    width: 400px;
+    padding: 3px;
+}
+
+
+
+#add_belly td{
+	padding:5px;
+}
+#add_belly .label{
+	font-weight:bold;
+}
+
+/*具体实现部分*/
+div#image_select{
+   
+  
+}
+iframe#pic_select{
+    height: 700px;
+    width: 1000px;
+    margin: 0;
+    border: none;
+   
+}
+.value{
+    display: none;
+}
+/*四视图上传后展示*/
+tr#img_show img{
+    width: 140px;
+}
+

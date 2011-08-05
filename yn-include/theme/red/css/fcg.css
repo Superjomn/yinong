@@ -1,0 +1,66 @@
+@charset "utf-8";
+@import 'common.css';
+@import 'header.css';
+body{
+	text-align:center;
+}
+#wrapper{
+	border:1px solid red;
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0;
+	padding-top:20px;
+}
+
+/*正文*/
+.small_bar{
+	width:48%;
+	margin-left:10px;
+	margin-top:10px;
+	float:left;
+}
+.small_bar li{
+	margin-top:10px;
+}
+.bar_h a{
+	text-decoration:underline;
+}
+.bar_h a:hover{
+	text-decoration:none;
+	color:red;
+}
+.small_bar p{
+	text-align:left;
+}
+.small_bar img{
+	width:120px;
+	height:90px;
+	border:4px solid #ccc;
+	float:left;
+	margin-right:10px;
+}
+.small_ul h3 a{
+	color:blue;
+	text-decoration:underline;
+}
+.small_ul h3 a:hover{
+	color:red;
+	text-decoration:none;
+}
+.small_bar .author a{
+	color:#999;
+	text-decoration:underline;
+}
+.small_bar .author a:hover{
+	color:red;
+	text-decoration:none;
+}
+  /*li的增强显示*/
+.li_even{
+	background-color:#F3EEBC;	
+}
+.li_over{
+	background-color:#D3E4D3;
+}
+

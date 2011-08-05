@@ -1,0 +1,51 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    clear: both;
+    height: 0;
+}
+#outer{
+    width: 650px;
+    margin: 50px auto 0 auto;
+    padding: 20px;
+}
+
+#register{
+    float: left;
+    font-family: "微软雅黑","黑体";
+    font-size: 16px;
+    color: #999;
+    margin: 0;
+    padding: 20px 20px 20px 80px;
+   
+}
+#header{
+	height:20px;
+	background:url(../image/register_header_bg.png) no-repeat left top;
+}
+#body{
+	background:url(../image/register_body_bg.png) repeat-y left top;
+}
+#bottom{
+	height:20px;
+	background:url(../image/register_bottom_bg.png) no-repeat left top;
+}
+span{
+    font-style: italic;
+    color: #999;
+}
+input,textarea,select{
+    font-size: 20px;
+    padding: 3px;
+    width: 400px;
+    font-family: "微软雅黑","黑体";
+}
+td{
+    height: 30px;
+}
+.alert{
+    color: red;
+}

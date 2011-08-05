@@ -1,0 +1,139 @@
+@charset "utf-8";
+@import 'common.css';
+@import 'header.css';
+
+body{
+	text-align:center;
+	background:url(../image/blue_sky_header.png) center top no-repeat #eee;
+}
+#wrapper{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:20px;
+}
+/*求购信息*/
+#qiugou_ul li{
+	padding:7px;
+	display:block;
+	padding-left:30px;
+}
+/*可收缩广告*/
+#scross_adv{
+	height:100px;
+	
+}
+/*开始主页面*/
+#content .bar{
+	width:32%;
+	float:left;
+	padding:3px;
+	display:inline;
+	
+}
+.small_bar{
+	border:1px solid #999;
+	padding-bottom:10px;
+}
+.small_bar li{
+	display:block;
+	text-align:left;
+	padding:3px;
+	padding-left:9px;
+}
+
+.small_bar h3{
+	padding:3px;
+}
+
+#content{
+}
+/*右侧网站信息*/
+#site_info li{
+	display:block;
+	float:left;
+	padding:10px 29px 10px 29px;
+	display:inline;
+}
+/*校园动态tabs*/
+#school_info .tab_div li{
+	display:block;
+	background:url(../image/pointer.png) no-repeat;
+	padding:4px;
+}
+/*活跃会员*/
+#member{
+	margin-top:10px;
+}
+#member li{
+	display:block;
+	padding:5px;
+	padding-left:50px;
+	font-family:"微软雅黑", "黑体";
+}
+#member .num{
+	color:#F03;
+	font-weight:bold;
+	background:url(../image/Heart.png) no-repeat;
+	width:25px;
+	display:block;
+	float:left;
+	text-align:center;
+	color:#fff;
+	margin-right:10px;
+	display:inline;
+}
+#member .level{
+	display:block;
+	float:right;
+	margin-right:60px;
+	color:red;
+	display:inline;
+}
+#bar_mid{
+	padding-bottom:10px;
+}
+/*content结束*/
+#bar_blog{
+	width:99%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+}
+#bar_blog table{
+	width:100%;
+}
+#bar_blog td h3{
+	font-size:25px;
+}
+#bar_blog td{
+	width:30%;
+	text-align:left;
+	padding:4px;
+}
+#bar_blog img{
+	height:80px;
+	width:80px;
+	border:4px solid #ccc;
+	float:left;
+	margin:4px;
+	display:inline;
+}
+#bar_blog a{
+	color:#006;
+	text-decoration:underline;
+}
+#bar_blog a:hover{
+	text-decoration:none;
+}
+
+
+
+#footer{
+	width:100%;
+	height:200px;
+}
+
+
+	
+

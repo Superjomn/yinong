@@ -1,0 +1,47 @@
+@charset "utf-8";
+@import'common.css';
+@import'header.css';
+body{
+	text-align:center;
+}
+#wrapper{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:20px;
+	border:2px solid blue;
+}
+#good_list{
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#eee;
+}
+#good_list .small_ul li{
+	display:block;
+	text-align:left;
+	padding:5px;
+	margin:5px;
+}
+#good_list .small_ul img{
+	width:120px;
+	height:90px;
+	float:left;
+	margin-right:5px;
+	display:inline;
+}
+#good_list a{
+	color:blue;
+	text-decoration:underline;
+}
+#good_list a:hover{
+	color:red;
+	text-decoration:none;
+}
+/*li 加强样式*/
+.li_even{
+	background-color:#E9DAE8;
+}
+.li_over{
+	background-color:#E0EFDA;
+}

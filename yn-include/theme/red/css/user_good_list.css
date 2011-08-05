@@ -1,0 +1,75 @@
+s@charset "utf-8";
+@import'common.css';
+@import'header.css';
+body{
+	text-align:center;
+}
+#wrapper{
+	border:1px solid red;
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:20px;
+}
+#good_list{
+	width:600px;
+	border:1px solid red;
+	float:left;
+}
+#good_list .small_ul li{
+	display:block;
+	text-align:left;
+	padding:5px;
+	margin:5px;
+}
+#good_list .small_ul img{
+	width:120px;
+	height:90px;
+	float:left;
+	margin-right:5px;
+}
+#good_list a{
+	color:blue;
+	text-decoration:underline;
+}
+#good_list a:hover{
+	color:red;
+	text-decoration:none;
+}
+/*li 加强样式*/
+.li_even{
+	background-color:#E9DAE8;
+}
+.li_over{
+	background-color:#E0EFDA;
+}
+/*用户信息*/
+#user_bar{
+	float:left;
+	border:1px solid red;
+	width:200px;
+	margin-left:20px;
+	text-align:center;
+    background-color:#E4EBFA;
+
+}
+#user_bar #user{
+	height:120px;
+	width:90px;
+	display:block;
+	border:4px solid #ccc;
+	margin-left:auto;
+	margin-right:auto;
+}
+#info{
+	margin-left:auto;
+	margin-right:auto;
+	font-size:15px;
+	color:#006;
+}
+#info td{
+	text-align:left;
+}
+
+
+

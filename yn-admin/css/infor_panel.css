@@ -1,0 +1,27 @@
+@charset "utf-8";
+@import'panel.css';
+*{
+	font-size:16px;
+}
+td{
+	padding:5px;
+}
+table{
+	width:90%;
+}
+input,textarea{
+	width:250px;
+	padding:3px;
+        border: 1px solid #ccc;
+        font-family:"微软雅黑","黑体";
+}
+/*动态样式*/
+.tr_even{
+    background-color: #eee;
+}
+#reply span{
+    font-style: italic;
+    color: #999;
+}
+
+

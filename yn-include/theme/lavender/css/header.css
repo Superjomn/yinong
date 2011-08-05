@@ -1,0 +1,85 @@
+@charset "utf-8";
+#header{
+	font-family:"微软雅黑", "黑体";
+	width:100%;
+}
+#header #logo{
+	float:left;
+	margin-right:40px;
+	display:inline;
+}
+#header b{
+	font-weight:normal;
+	color:#999;
+}
+
+#header li{
+	display:block;
+	float:left;
+}
+#header ul a{
+	color:#000;
+	display:block;
+	padding:7px 5px 7px 5px;
+	border-left:1px solid #ccc;
+}
+#header ul a:hover{
+	background-color:#eeeeee;
+}
+#header #home{
+	color:red;
+}
+.hr{
+	margin-top:20px;
+	background-color:#C00;
+	height:4px;
+	display:inline;
+}
+#search{
+	display:block;
+	margin-top:10px;
+	display:inline;
+}
+#search_input{
+	width:300px;
+	font-size:18px;
+	padding:3px;
+}
+#search .radio{
+	float:left;
+}
+#search .radio input{
+	width:100%;
+	clear:both;
+}
+/*滚动本站信息栏*/
+#roll_info{
+	height:30px;
+	border:1px dotted blue;
+}
+#roll_info img{
+	height:35px;
+	float:left;
+	margin-left:20px;
+	display:inline;
+}
+/*导航树*/
+#homenav li{
+	display:block;
+	float:left;
+}
+#homenav{
+	height:30px;
+}
+#homenav a{
+	text-decoration:underline;
+}
+#header #login{
+	float:right;
+	font-size:18px;
+	
+}
+#header #login a{
+	text-decoration:underline;
+	color:blue;
+
